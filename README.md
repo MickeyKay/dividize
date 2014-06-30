@@ -13,6 +13,7 @@ Dividize provides you with the `dividize()` function, which can be used as follo
 ```
 jQuery('.my-elements').dividize(divNumber, wrapperElement, className);
 ```
+The function attribues include:
 
 `divNumber` - (int) the number of elements to wrap in each group.
 
