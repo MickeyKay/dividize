@@ -15,5 +15,8 @@ jQuery('.my-elements').dividize(divNumber, wrapperElement, className);
 ```
 
 `divNumber` - (int) the number of elements to wrap in each group.
+
 `wrapperElement` - (string) the HTML tag to use as the wrapper (e.g. `div`, `span`, `b`).
+
 `className` - (string) the class to apply to the wrapper tags.
+
