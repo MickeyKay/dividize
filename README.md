@@ -1,7 +1,9 @@
 # Dividize
 
 A jQuery plugin/snippet to evenly divide and wrap selected elements into a set number of groups. The function call looks like this:
-`jQuery('.my-elements').dividize(divNumber, wrapperElement, className);`
+```
+jQuery('.my-elements').dividize(divNumber, wrapperElement, className);
+```
 
 ## Description
 Dividize is a simple jQuery solution for wrapping a bunch of elements in a set number of groups. A common use case, for example, might be splitting a long `<ul>` list into three columns with an equal (or as close to possible) number of `<li>`'s in each column. While the [CSS columns spec](http://www.w3schools.com/cssref/css3_pr_columns.asp) is pretty cool, it's still [not totally supported](http://caniuse.com/#search=column), so Dividize is a great solution in the meantime.
